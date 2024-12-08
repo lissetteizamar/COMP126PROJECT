@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, 
+        initial-scale-1, shrink-to-fit=no">
+    <title>Contact - Club Spotlight</title>
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="navbar">
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about_us.html">About Us</a></li>
+    <div class="dropdown">
+        <button class="dropbtn">Featured Clubs
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <li><a href="suie.html">SUIE</a></li>
+            <li><a href="croquis.html">Croquis</a></li>
+        </div>
+    </div>
+    <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+
+<div class="container_a">
+    <h1>CONTACT</h1>
+</div>
+
+<div class="container">
+
+
+<form action="/" method="post">
+    <h2 style="color:#223148; text-align:center;">Contact Form</h2>
+    <p style="text-align:center;">Fill out the form to have a chance to be Spotlighted!</p>
+
+    <fieldset>
+        <legend>Basic Info</legend>
+
+        <label for="name">Club Organization Name</label>
+        <input type="text" id="name" name="name" placeholder="ex. Spotlight Club" value="" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="user_email" placeholder="ex. jand1doe@email.com" value="" required>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Profile</legend>
+        <label for="bio">Bio Sketch</label>
+        <textarea id="bio" name="user_bio" placeholder="Information that You want to share?"></textarea>
+
+        <label for="university">Do You Have Any Pets?</label>
+        <select id="university" name="user_university">
+
+        <optgroup label="Pets Pets Pets">
+            <option value="dogs">dogs</option>
+            <option value="cats">cats</option>
+            <option value="lizards">lizards</option>
+            <option value="snakes">snakes</option>
+            <option value="no_pets">i do not have any pets</option>
+        </optgroup>
+
+        </select>
+
+        <label>Hobbies</label>
+        <input type="checkbox" id="arts" value="drawing" name="user_study"><label class="light" for="Hobbies">Drawing</label><br>
+        <input type="checkbox" id="music" value="music" name="user_study"><label class="light" for="Hobbies">Listening to Music</label><br>
+        <input type="checkbox" id="cooking" value="cooking" name="user_study"><label class="light" for="Hobbies">Cooking</label><br>
+        <input type="checkbox" id="sports" value="sports" name="user_study"><label class="light" for="Hobbies">Sports</label><br>
+        <input type="checkbox" id="gaming" value="gaming" name="user_study"><label class="light" for="Hobbies">Gaming</label>
+
+    </fieldset>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <div class="center">
+    <p - style="color: #f2eae0;">Copyright © C. Nguyen & L. Gutierrez Cruz 2024 | Last Updated by    
+    <script>
+        var days = new Array(8);
+        days[1] = "Sunday";
+        days[2] = "Monday";
+        days[3] = "Tuesday";
+        days[4] = "Wednesday";
+        days[5] = "Thursday";
+        days[6] = "Friday";
+        days[7] = "Saturday";
+        var months = new Array(13);
+        months[1] = "January";
+        months[2] = "February";
+        months[3] = "March";
+        months[4] = "April";
+        months[5] = "May";
+        months[6] = "June";
+        months[7] = "July";
+        months[8] = "August";
+        months[9] = "September";
+        months[10] = "October";
+        months[11] = "November";
+        months[12] = "December";
+        var dateObj = new Date(document.lastModified)
+        var wday = days[dateObj.getDay() + 1]
+        var lmonth = months[dateObj.getMonth() + 1]
+        var date = dateObj.getDate()
+        var fyear = dateObj.getYear()
+        if (fyear < 2000) fyear = fyear + 1900
+        document.write("" + wday + ", " + date + " " + lmonth + " " + fyear)
+    </script>
+    </p>
+    </div>
+</footer>
+
+
+
+</body>  
+
+
+
+
+</html>

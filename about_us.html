@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, 
+        initial-scale-1, shrink-to-fit=no">
+    <title>About Us - Club Spotlight</title>
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="navbar">
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about_us.html">About Us</a></li>
+    <div class="dropdown">
+        <button class="dropbtn">Featured Clubs
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <li><a href="suie.html">SUIE</a></li>
+            <li><a href="croquis.html">Croquis</a></li>
+        </div>
+    </div>
+    <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+
+<div class="container_a">
+    <h1>ABOUT US</h1>
+</div>
+
+<div class="container">
+    <p>Welcome!</p>
+    <p>How you ever walked around Fall Fest or during Club Organization Fairs and see there are so many clubs?</p>
+    <p>We know that this feeling can be overwhelming, so we created a blog that introduces you to a variety of clubs every week!</p>
+    <p>We made this blog to not only feature our favourite clubs but to give a spotlight to those who want to share of what they do! We always reach out to club representatives for an interview or rundown of their club to give you all the most up to date information! We update this blog every Sunday afternoon! Be sure to check back every week to discover a new club!</p>
+    <p class="center">Have a club you'd like for us to feature?</p>
+    <div class="center">
+        <a href="contact.html" target="blank"><button class="button button3">CLICK HERE TO LET US KNOW!</button></a>
+    </div>
+</div>
+
+<footer>
+    <div class="center">
+    <p - style="color: #f2eae0;">Copyright © C. Nguyen & L. Gutierrez Cruz 2024 | Last Updated by    
+    <script>
+        var days = new Array(8);
+        days[1] = "Sunday";
+        days[2] = "Monday";
+        days[3] = "Tuesday";
+        days[4] = "Wednesday";
+        days[5] = "Thursday";
+        days[6] = "Friday";
+        days[7] = "Saturday";
+        var months = new Array(13);
+        months[1] = "January";
+        months[2] = "February";
+        months[3] = "March";
+        months[4] = "April";
+        months[5] = "May";
+        months[6] = "June";
+        months[7] = "July";
+        months[8] = "August";
+        months[9] = "September";
+        months[10] = "October";
+        months[11] = "November";
+        months[12] = "December";
+        var dateObj = new Date(document.lastModified)
+        var wday = days[dateObj.getDay() + 1]
+        var lmonth = months[dateObj.getMonth() + 1]
+        var date = dateObj.getDate()
+        var fyear = dateObj.getYear()
+        if (fyear < 2000) fyear = fyear + 1900
+        document.write("" + wday + ", " + date + " " + lmonth + " " + fyear)
+    </script>
+    </p>
+    </div>
+</footer>
+
+
+
+</body>  
+
+
+
+
+</html>

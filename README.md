@@ -1,2 +1,2 @@
-# COMP126PROJECT
-COMP126 Final Project
+# comp126_final_project
+ 
